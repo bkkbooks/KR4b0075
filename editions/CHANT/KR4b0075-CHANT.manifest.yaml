@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR4b0075/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR4b0075/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 魏收集二卷
+  identifiers:
+    krp: KR4b0075
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0075.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0075_001-CHANT.yaml, hash: 'sha256:67e5973b1d91271d13e9ef04d635d2844b21738804c7e67c8eb5c17598e1e963'}
+  - {seq: 2, filename: KR4b0075_002-CHANT.yaml, hash: 'sha256:3d16adcce7c848e50635976941109b99f98900395f628ca2a7f3a4743c74dc70'}
+  - {seq: 3, filename: KR4b0075_003-CHANT.yaml, hash: 'sha256:d6abbee9173d9aa193be473238023221c28c5afc187528645495cc9282425ff5'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0075_001-CHANT.markers.yaml, hash: 'sha256:f38eddeec400e6b3cad793d64c1d10a0dafd2cccbd788831f40bf3ffe81bd56e'}
+  - {seq: 2, role: markers, filename: assets/KR4b0075_002-CHANT.markers.yaml, hash: 'sha256:efa393ebab35e95827055db1bb8ea6182b4bdb53b0ec2a1c9f21b94cfd44b435'}
+  - {seq: 3, role: markers, filename: assets/KR4b0075_003-CHANT.markers.yaml, hash: 'sha256:2c5dee47ed6db716c281be5ee324e39a9deeb19f20a3d173835f757299882b67'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0075_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 789
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0075_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 6938
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0075_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 2177
+  label: 附錄
+  type: section
+  level: 1
+hash: sha256:e17cdf870d701794595540d75f33fdd353af47d341a515aa6e242fc4f273bc60
